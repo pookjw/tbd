@@ -65,6 +65,9 @@ tbd_platform_to_string(const enum tbd_platform platform,
         case TBD_PLATFORM_BRIDGEOS:
             return "bridgeos";
 
+        case TBD_PLATFORM_XROS:
+            return "xros";
+
         case TBD_PLATFORM_IOSMAC:
             if (version == TBD_VERSION_V4) {
                 return "maccatalyst";

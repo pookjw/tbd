@@ -168,6 +168,8 @@ enum tbd_platform parse_platform(const char *__notnull const platform) {
         return TBD_PLATFORM_WATCHOS;
     } else if (strcmp(platform, "tvos") == 0) {
         return TBD_PLATFORM_TVOS;
+    } else if (strcmp(platform, "xros") == 0) {
+        return TBD_PLATFORM_XROS;
     } else if (strcmp(platform, "bridgeos") == 0) {
         return TBD_PLATFORM_BRIDGEOS;
     } else if (strcmp(platform, "iosmac") == 0) {
@@ -456,6 +458,7 @@ void print_platform_list(void) {
           "ios\n"
           "watchos\n"
           "tvos\n"
+          "xros\n"
           "bridgeos\n"
           "iosmac\n"
           "driverkit\n",

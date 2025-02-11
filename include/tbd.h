@@ -88,6 +88,7 @@ enum tbd_platform {
     TBD_PLATFORM_IOS,
     TBD_PLATFORM_TVOS,
     TBD_PLATFORM_WATCHOS,
+    TBD_PLATFORM_XROS,
 
     /*
      * Apple's mach-o/loader.h doesn't yet contain this platform, even though

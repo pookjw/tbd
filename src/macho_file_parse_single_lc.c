@@ -133,6 +133,7 @@ static inline bool is_mac_or_iosmac_platform(const enum tbd_platform platform) {
         case TBD_PLATFORM_IOS:
         case TBD_PLATFORM_TVOS:
         case TBD_PLATFORM_WATCHOS:
+        case TBD_PLATFORM_XROS:
         case TBD_PLATFORM_BRIDGEOS:
         case TBD_PLATFORM_IOS_SIMULATOR:
         case TBD_PLATFORM_TVOS_SIMULATOR:
@@ -184,6 +185,7 @@ parse_bv_platform(
         case PLATFORM_IOS:
         case PLATFORM_TVOS:
         case PLATFORM_WATCHOS:
+        case PLATFORM_XROS:
         case PLATFORM_BRIDGEOS:
         case PLATFORM_DRIVERKIT:
         case PLATFORM_IOSMAC:
